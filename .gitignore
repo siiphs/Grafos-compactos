@@ -1,3 +1,36 @@
+# main
+main
+
+# Archivos compilados del k2tree
+/hybrid_k2tree/build_tree
+/hybrid_k2tree/compress_leaves
+/hybrid_k2tree/checkrebuild_tree
+/hybrid_k2tree/fulldecompression_tree
+/hybrid_k2tree/invrebuild_tree
+/hybrid_k2tree/rangerebuild_tree
+/hybrid_k2tree/rebuild_tree
+/hybrid_k2tree/revtest_tree
+/hybrid_k2tree/test_tree
+/hybrid_k2tree/use_tree
+
+# Grafos en su formato original y transformado
+/grafos/planar_embedding1M.pg
+/grafos/planar_embedding5M.pg
+/grafos/planar_embedding10M.pg
+/grafos/T_planar_embedding1M.pg
+/grafos/T_planar_embedding5M.pg
+/grafos/T_planar_embedding10M.pg
+/grafos/test.pg
+/grafos/T_test.pg
+
+# K2tree convertidos
+/k2trees/planar1M.cil
+/k2trees/planar1M.il
+/k2trees/planar1M.lv
+/k2trees/planar1M.tr
+/k2trees/planar1M.voc
+
+
 # Prerequisites
 *.d
 
@@ -48,7 +81,6 @@ build-*/
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
-Makefile
 install_manifest.txt
 compile_commands.json
 
