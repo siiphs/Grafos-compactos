@@ -12,14 +12,12 @@ Abre una terminal en la raíz del proyecto y ejecuta:
 ### Compilar el ejecutable principal (`main`):
 
 ```sh
-cd src
 g++ -o main main.cpp turan.cpp lista_adyacencia.cpp -L/mnt/c/Users/chips/lib -I/mnt/c/Users/chips/include -lsdsl
 ```
 
 ### Compilar el ejecutable para transformar formato estándar a K2-Tree:
 
 ```sh
-cd src
 g++ -o format formatear_T.cpp -L/mnt/c/Users/chips/lib -I/mnt/c/Users/chips/include -lsdsl
 ```
 
