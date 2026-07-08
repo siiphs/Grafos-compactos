@@ -3,7 +3,7 @@
 ## Requisitos
 
 - **Compilador C++** (recomendado: g++ de MinGW o similar)
-- Biblioteca sdsl-lite con `pemb.cpp` configurado según detalles mencionados en el informe
+- Biblioteca sdsl-lite con `pemb.hpp` configurado según detalles mencionados en el informe
 
 ## Compilación manual con g++
 
